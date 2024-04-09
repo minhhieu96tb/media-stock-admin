@@ -1,88 +1,34 @@
-.login-form-margin {
-  margin-bottom: 16px;
-  display: flex;
-  justify-content: space-between;
+.bg-header{
+  background-color: #FFFFFF;
+  height: 915px;
 
-  a {
-    color: #141ed2;
+  .bg-holder{
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+    top: 24px;
+    left: 24px;
+    bottom: 24px;
   }
-}
-
-.login-form-forgot {
-  text-align: center;
-  font-weight: 700;
-
-  a {
-    color: #141ed2;
+  .form-label{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
   }
-}
-
-.login-form-button {
-  width: 100%;
-  background: #141ed2;
-  color: white;
-  font-weight: 600;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  border-radius: 0.5rem;
-  height: 48px;
-}
-
-.input-login {
-  border-radius: 0.5rem;
-  height: 48px;
-}
-
-.login-form .ant-form-item .ant-form-item-label {
-  text-align: left;
-}
-
-.header-login {
-  text-align: center;
-
-  .description {
+  .form-control{
+    font-size: 14px;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(0, 0, 0, 0.4);
+    line-height: 20px;
   }
-
-  .title {
-    font-weight: 700;
-    font-size: 24px;
-  }
+  .eye-icon {
+    position: absolute;
+    top: 60%;
+    right: 10px;
+    cursor: pointer;
 }
 
-.login {
-  display: flex;
-  flex-direction: column;
-
-  .logo {
-    padding: 10px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-}
-
-.register {
-  .main {
-    height: 55vh;
-    padding: 0 10%;
-  }
-}
-
-// OTP
-
-.otp-input {
-  padding: 10px;
-}
-
-.timeline-otp {
-  padding: 10px;
-}
-
-.text-danger {
-  color: red;
 }

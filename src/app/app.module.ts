@@ -11,6 +11,7 @@ import { vi } from 'date-fns/locale';
 import { CoreModule } from './@core/core.module';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './appRouting.module';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 registerLocaleData(en);
 registerLocaleData(viI18n);
@@ -24,6 +25,7 @@ registerLocaleData(viI18n);
     HttpClientModule,
     BrowserAnimationsModule,
     CoreModule.forRoot(),
+    NgbModule,
   ],
   providers: [
     { provide: NZ_DATE_LOCALE, useValue: vi },

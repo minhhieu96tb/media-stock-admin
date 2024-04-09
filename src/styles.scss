@@ -303,3 +303,6 @@ app-info-item {
   border-color: "@secondary-color" !important;
   background: "@secondary-color";
 }
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
